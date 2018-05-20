@@ -1,0 +1,65 @@
+<div class="pizza-form">
+    <form [formGroup]="form">
+      <label>
+        <h4 i18n>Pizza name</h4>
+        <input
+          type="text"
+          formControlName="name"
+          placeholder="e.g. Pepperoni"
+          class="pizza-form__input"
+          [class.error]="nameControlInvalid">
+        <div
+          class="pizza-form__error"
+          *ngIf="nameControlInvalid">
+          <p i18n>Pizza must have a name</p>
+        </div>
+      </label>
+
+      <ng-content></ng-content>
+
+      <label>
+        <h4 i18n>Select toppings</h4>
+      </label>
+      <div class="pizza-form__list">
+
+        <app-pizza-toppings
+          [toppings]="toppings"
+          formControlName="toppings">
+        </app-pizza-toppings>
+
+      </div>
+
+      <div class="pizza-form__actions">
+        <button
+          type="button"
+          class="btn btn__ok"
+          *ngIf="!exists"
+          (click)="createPizza(form)"
+          i18n
+          >
+          Create Pizza
+        </button>
+
+        <button
+          type="button"
+          class="btn btn__ok"
+          *ngIf="exists"
+          (click)="updatePizza(form)"
+          i18n
+          >
+          Save changes
+        </button>
+
+        <button
+          type="button"
+          class="btn btn__warning"
+          *ngIf="exists"
+          (click)="removePizza(form)"
+          i18n
+          >
+          Delete Pizza
+        </button>
+      </div>
+
+    </form>
+  </div>

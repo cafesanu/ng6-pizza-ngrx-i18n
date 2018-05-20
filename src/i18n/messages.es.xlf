@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="48dfb134cb8d324bb45f2f9f3bd7d7afc49bc3f8" datatype="html">
+        <source>Products</source>
+        <target>Los Burritos</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">modules/app/containers/app.component.ts</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2630018fd6858ab4e59b846d396b67aeec7bf16d" datatype="html">
+        <source>© Honest Pizza</source>
+        <target>© Las Enchiladas Honestas</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">modules/app/containers/app.component.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6578798eee5f8c9d32453e3065ac94cfc97ad58f" datatype="html">
+        <source>New Pizza</source>
+        <target>Nueva chimichanga</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">modules/products/containers/products/products.component.ts</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="58db89a40f49c1fd2190ef89234a8cbb6bf07f0f" datatype="html">
+        <source> No hay ni siquiera una pinche empanada. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">modules/products/containers/products/products.component.ts</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="818e140c31583852c02b1bfe108bb58270f68d03" datatype="html">
+        <source>View Pizza</source>
+        <target>Ver Taco</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">modules/products/components/pizza-item/pizza-item.component.ts</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="58648138b5f8f3cd0c8a422209fbc45ad709f9a4" datatype="html">
+        <source>Pizza name</source>
+        <target>Nomre del somrero</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">modules/products/components/pizza-form/pizza-form.component.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b1130323daccd48e8b1ac1fe3d912451b4d1ec68" datatype="html">
+        <source>Pizza must have a name</source>
+        <target>La Pizza nacesita mas frijoles</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">modules/products/components/pizza-form/pizza-form.component.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e9a609f04c30e7fe38a10748ecd3a87f4a6a4241" datatype="html">
+        <source>Select toppings</source>
+        <target>Seleccione cuantas carnitas</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">modules/products/components/pizza-form/pizza-form.component.ts</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e9f46d6dbef85bebaa589478c242b5bf940c1b2c" datatype="html">
+        <source>Create Pizza</source>
+        <target>Crear flauta</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">modules/products/components/pizza-form/pizza-form.component.ts</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9bb93deee4774b1e19880c0c5167b0c2cca50354" datatype="html">
+        <source>Save changes</source>
+        <target>Guardar tortilla</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">modules/products/components/pizza-form/pizza-form.component.ts</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="382211e75d6a7f912f06d0c6579c97eb45557575" datatype="html">
+        <source> Delete Pizza </source>
+        <target> Que te folle un pez </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">modules/products/components/pizza-form/pizza-form.component.ts</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
